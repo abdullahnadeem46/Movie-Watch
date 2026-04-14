@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { UserButton, useUser } from "@clerk/clerk-react";
 import { useState, useEffect } from "react";
-import "./Navbar.css";
+import "./navbar.css";
 
 function Navbar() {
   const { isSignedIn } = useUser();
